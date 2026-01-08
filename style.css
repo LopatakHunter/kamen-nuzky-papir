@@ -1,0 +1,19 @@
+h1 {
+    background-color: rosybrown;
+    color: teal;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 5px;
+}

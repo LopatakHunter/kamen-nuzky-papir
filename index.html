@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Hra</title>
+</head>
+
+<body>
+  <h1>Kámen - nůžky - papír - tapír - spock</h1>
+
+  <table class="center">
+    <tr>
+      <td><img id="obr1" src="0.png"></td>
+      <td><img id="obr2" src="1.png"></td>
+    </tr>
+
+    <tr>
+      <td id="vitez1">Hráč 1</td>
+      <td id="vitez2">Počítač</td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <select id="vyber">
+          <option value="0">Kámen</option>
+          <option value="1">Spock</option>
+          <option value="2">Papír</option>
+          <option value="3">Tapír</option>
+          <option value="4">Nůžky</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2"><button>HRAJ</button></td>
+    </tr>
+
+    <tr>
+      <td>Skóre hráč: <span id="score1">0</span></td>
+      <td>Skóre PC: <span id="score2">0</span></td>
+    </tr>
+  </table>
+</body>
+</html>
